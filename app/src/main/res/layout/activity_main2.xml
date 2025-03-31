@@ -10,20 +10,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="text1"
+        android:layout_margin="10dp"
         />
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="text2"
+        android:layout_margin="10dp"
         />
     <TextView
         android:id="@+id/text3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="text3"
+        android:layout_margin="10dp"
         />
 
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="요세하력입 명교학"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:text="결과: "/>
 
-
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 확인"
+        android:layout_margin="10dp"
+        />
 </LinearLayout>
